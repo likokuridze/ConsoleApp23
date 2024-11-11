@@ -1,4 +1,6 @@
-﻿namespace ConsoleApp23
+﻿
+
+namespace ConsoleApp23
 {
     internal class Program
     {
@@ -6,9 +8,9 @@
         {
             IAnimal[] animals = new IAnimal[]
             {
-                new Dog(),
-                new Cat(),
-                new Cow()
+                new Dog("Rex", 3),
+                new Cat("shai", 2),
+                new Cow("nisla", 5)
             };
 
             foreach (var animal in animals)
